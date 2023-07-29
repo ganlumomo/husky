@@ -3,7 +3,7 @@ husky_gazebo
 
 ### Installation & Run
 ```bash
-sudo cp -r models/heightmap_bowl/* /usr/share/gazebo-11/media/materials/textures/
+sudo cp -r models/heightmap/ /usr/share/gazebo-11/models/
 roslaunch husky_gazebo heightmap.launch
 ```
 

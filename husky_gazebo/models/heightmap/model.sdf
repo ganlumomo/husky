@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
-  <model name="Heightmap Bowl">
+  <model name="heightmap">
     <static>true</static>
     <link name="link">
       <collision name="collision">
         <geometry>
           <heightmap>
-            <uri>materials/textures/heightmap_bowl.png</uri>
+            <uri>materials/textures/heightmap_difference_clouds.png</uri>
             <size>129 129 10</size>
             <pos>0 0 0</pos>
           </heightmap>
@@ -39,7 +39,7 @@
               <min_height>4</min_height>
               <fade_dist>5</fade_dist>
             </blend>
-            <uri>materials/textures/heightmap_bowl.png</uri>
+            <uri>materials/textures/heightmap_difference_clouds.png</uri>
             <size>129 129 10</size>
             <pos>0 0 0</pos>
           </heightmap>
