@@ -10,10 +10,6 @@ Export realsense urdf by adding the following to bashrc:
 ```
 export HUSKY_URDF_EXTRAS=[CATKIN WORKSPACE PATH]/src/husky/husky_description/urdf/realsense.urdf.xacro
 ```
-Disable ekf localization by adding the following to bashrc:
-```
-export ENABLE_EKF=False
-```
 
 ### Run
 ```
