@@ -5,6 +5,7 @@ husky_gazebo
 ```bash
 sudo cp -r models/heightmap/ /usr/share/gazebo-11/models/
 roslaunch husky_gazebo heightmap.launch
+roslaunch husky_viz view_robot.launch
 ```
 
 ### Issues
