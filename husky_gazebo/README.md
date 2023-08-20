@@ -2,18 +2,11 @@ husky_gazebo
 =====
 
 ### Installation
-Add the heightmap model to gazebo (where gazebo is installed)
-```bash
-sudo cp -r models/heightmap/ /usr/share/gazebo-11/models/
-```
-Export realsense urdf by adding the following to bashrc:
-```
-export HUSKY_URDF_EXTRAS=[CATKIN WORKSPACE PATH]/src/husky/husky_description/urdf/realsense.urdf.xacro
-```
 
 ### Run
 ```
 roslaunch husky_gazebo heightmap.launch
+roslaunch husky_navigation gmapping_demo.launch
 roslaunch husky_viz view_robot.launch
 ```
 
