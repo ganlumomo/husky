@@ -9,6 +9,11 @@
      <gravity>0 0 -9.8</gravity>
     </physics-->
 
+    <physics type='ode'>
+     <max_step_size>0.01</max_step_size>
+     <real_time_update_rate>100</real_time_update_rate>
+    </physics>
+
     <!-- A global light source -->
     <include>
       <uri>model://sun</uri>
